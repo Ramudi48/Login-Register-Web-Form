@@ -11,6 +11,9 @@ include("connect.php");
     <title>Homepage</title>
 </head>
 <body>
-    
+<div style="text-align:center; padding:15%;">
+     
+      <a href="logout.php">Logout</a>
+    </div>
 </body>
 </html>
