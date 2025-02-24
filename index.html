@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id="signup">
+    <div class="container" id="signUp" style="display: none;">
         <h1 class="form-title">Register</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -31,7 +31,7 @@
                 <input type="password" name="password" id="password" placeholder="Password" required>
                 <label for="password">Password</label>
             </div>
-             <input type="submit" class="btn" value="Sign Up" name="signup">
+             <input type="submit" class="btn" value="Sign Up" name="signUp">
         </form> 
              <p class="or">
                 -----------------or-----------------
@@ -47,7 +47,7 @@
          
     </div>
 
-        <div class="container" id="signin">
+        <div class="container" id="signIn">
             <h1 class="form-title">Sign In</h1>
             <form method="post" action="">
                 
@@ -64,7 +64,7 @@
                 <p class="recover">
                     <a href="#">Recover Password ?</a>
                 </p>
-                 <input type="submit" class="btn" value="Sign In" name="signin">
+                 <input type="submit" class="btn" value="Sign In" name="signIn">
             </form>
                  <p class="or">
                     -----------------or-----------------
@@ -74,10 +74,11 @@
                     <i class="fab fa-facebook"></i>
                 </div>
                 <div class="links">
-                    <p> Don't have Accout yet ?</p>
+                    <p> Don't have Account yet ?</p>
                     <button id="signUpButton">Sign Up</button>
                 </div>
         </div>
+        <script src="script.js"></script>
        
             
 </body>
