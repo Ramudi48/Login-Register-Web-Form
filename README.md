@@ -12,18 +12,11 @@ A simple and secure web-based authentication system that includes login and regi
 
 ## 📂 Getting Started
 
-1. **Clone the Repository**  
+**Clone the Repository**  
    ```bash
    git clone https://github.com/Ramudi48/Login-Register-Web-Form.git
    ```
-2. **Navigate to the Project Directory**  
-   ```bash
-   cd Login-Register-Web-Form
-   ```
-3. **Run the Application** (if applicable)  
-   ```bash
-   npm start  # or any other relevant command
-   ```
+
 
 ## 🤝 Contributions
 
